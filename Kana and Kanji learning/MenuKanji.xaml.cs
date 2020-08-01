@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace Kana_and_Kanji_learning
 {
     /// <summary>
-    /// Logique d'interaction pour MainWindow.xaml
+    /// Logique d'interaction pour MenuKanji.xaml
     /// </summary>
-    public partial class MainWindow : NavigationWindow
+    public partial class MenuKanji : Page
     {
-        public MainWindow()
+        public MenuKanji()
         {
             InitializeComponent();
         }
