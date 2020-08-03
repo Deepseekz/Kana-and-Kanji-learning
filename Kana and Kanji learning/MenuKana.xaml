@@ -17,5 +17,16 @@
             <RowDefinition />
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
+
+        <Border Grid.Column="1" Grid.Row="0" Height="45" Padding="5" Background="#4E87D4">
+            <Label VerticalAlignment="Center" HorizontalAlignment="Center" FontFamily="arial" FontSize="20" Foreground="White">Kana Learningかな</Label>
+        </Border>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="677,39,0,0" Grid.Row="1" VerticalAlignment="Top" Width="75"/>
+
+
+        <Grid.Background>
+            <ImageBrush ImageSource="C:\Users\Adam\source\repos\Kana and Kanji learning\Kana and Kanji learning\Ressources\images\mt-fuji-1920x1279.jpg"/>
+        </Grid.Background>
+
     </Grid>
 </Page>

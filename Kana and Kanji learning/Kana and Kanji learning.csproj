@@ -104,12 +104,19 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Resource Include="Ressources\fonts\SF_Shai_Fontai_Extended.ttf" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Ressources\images\mt-fuji-1920x1279.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Ressources\images\japan-1920x1279.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Ressources\images\texture-2136831_1920.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
