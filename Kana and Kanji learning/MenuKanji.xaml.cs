@@ -18,7 +18,7 @@ namespace Kana_and_Kanji_learning
     /// <summary>
     /// Logique d'interaction pour MenuKanji.xaml
     /// </summary>
-    public partial class MenuKanji : Page
+    public partial class MenuKanji : Window
     {
         public MenuKanji()
         {

@@ -5,5 +5,9 @@
              StartupUri="MainWindow.xaml">
     <Application.Resources>
 
+        <Style TargetType="Label">
+            <Setter Property="FontFamily" Value="/Kana and Kanji learning;component/Ressources/Fonts/#SF Shai Fontai Extended"></Setter>
+        </Style>
+
     </Application.Resources>
 </Application>

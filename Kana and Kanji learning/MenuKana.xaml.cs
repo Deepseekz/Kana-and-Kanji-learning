@@ -18,11 +18,16 @@ namespace Kana_and_Kanji_learning
     /// <summary>
     /// Logique d'interaction pour MenuKana.xaml
     /// </summary>
-    public partial class MenuKana : Page
+    public partial class MenuKana : Window
     {
         public MenuKana()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

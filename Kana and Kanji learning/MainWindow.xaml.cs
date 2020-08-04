@@ -24,5 +24,17 @@ namespace Kana_and_Kanji_learning
         {
             InitializeComponent();
         }
+
+        private void btnKana_Click(object sender, RoutedEventArgs e)
+        {
+            MenuKana monMenuKana = new MenuKana();
+            monMenuKana.Show();
+            this.Close();
+        }
+
+        private void btnExit_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
     }
 }

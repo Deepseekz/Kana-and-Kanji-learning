@@ -6,11 +6,14 @@
         xmlns:local="clr-namespace:Kana_and_Kanji_learning"
         mc:Ignorable="d"
         Title="Kana and Kanji learning" ResizeMode="NoResize" WindowStyle="None" WindowStartupLocation="CenterScreen" WindowState="Maximized">
-    <Grid>
+    <Grid x:Name="wpfMainWindow">
         
         <Grid.Background>
             <ImageBrush ImageSource="C:\Users\Adam\source\repos\Kana and Kanji learning\Kana and Kanji learning\Ressources\images\texture-2136831_1920.jpg"></ImageBrush>
         </Grid.Background>
-        <Label x:Name="lblTitre" Content="Apprendre le Japonais" HorizontalAlignment="Center" VerticalAlignment="Top" HorizontalContentAlignment="Center" FontSize="40" Height="62" Width="500" FontFamily="/Kana and Kanji learning;component/Ressources/Fonts/#SF Shai Fontai Extended"/>
+        <Label x:Name="lblTitre" Content="Apprendre le Japonais" HorizontalAlignment="Center" VerticalAlignment="Top" HorizontalContentAlignment="Center" FontSize="40" Height="62" Width="500" Margin="30"/>
+        <Button x:Name="btnKana" Content="Kana" HorizontalAlignment="Left" Margin="509,200,0,0" VerticalAlignment="Top" Width="75" Click="btnKana_Click"/>
+        <Button x:Name="btnExit" Content="Button" HorizontalAlignment="Left" Margin="385,200,0,0" VerticalAlignment="Top" Width="75" Click="btnExit_Click"/>
+        <Frame x:Name="Main" Margin="-460,-233,460,233"></Frame>
     </Grid>
 </Window>
